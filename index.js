@@ -22,9 +22,13 @@ function findAnswer(input) {
         }
     }
 
+    answer(result, input);
+}
+
+function answer(result, input) {
     // console.log(result);
 
-    var answer = 0;
+    let answer = 0;
     result.forEach(v => {
         const [x, y, z] = v;
         if (x === input || y === input || z === input) answer++;
