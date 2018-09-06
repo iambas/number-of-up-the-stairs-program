@@ -1,5 +1,10 @@
 const data = [1, 4, 5];
 
+var factorial = memoize(function (num) {
+    if (num < 2) { return 1 };
+    return num * factorial(num - 1);
+});
+
 for (let i = 1; i <= 100; i++) {
     findAnswer(i);
 }
@@ -41,7 +46,17 @@ function answer(result, input) {
     console.log('Input :', input, '=> Answer :', answer);
 }
 
-function factorial(n) {
-    if (n < 2) return 1;
-    return n * factorial(n - 1);
+function memoize(func) {
+    var cache = {};
+    return function () {
+        var key = JSON.stringify(arguments);
+        if (cache[key]) {
+            return cache[key];
+        }
+        else {
+            var val = func.apply(this, arguments);
+            cache[key] = val;
+            return val;
+        }
+    };
 }
