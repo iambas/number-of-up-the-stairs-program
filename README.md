@@ -1,108 +1,108 @@
-# number-of-up-the-stairs-program
+# Number of up the stairs program
 
-step up the stairs 1, 4, 5<br>
+Step up the stairs 1, 4, 5<br>
 Input: number of stairs
 
 ## Result
 <pre>
-Input : 1 Answer : 1
-Input : 2 Answer : 1
-Input : 3 Answer : 1
-Input : 4 Answer : 2
-Input : 5 Answer : 4
-Input : 6 Answer : 6
-Input : 7 Answer : 8
-Input : 8 Answer : 11
-Input : 9 Answer : 17
-Input : 10 Answer : 27
-Input : 11 Answer : 41
-Input : 12 Answer : 60
-Input : 13 Answer : 88
-Input : 14 Answer : 132
-Input : 15 Answer : 200
-Input : 16 Answer : 301
-Input : 17 Answer : 449
-Input : 18 Answer : 669
-Input : 19 Answer : 1001
-Input : 20 Answer : 1502
-Input : 21 Answer : 2252
-Input : 22 Answer : 3370
-Input : 23 Answer : 5040
-Input : 24 Answer : 7543
-Input : 25 Answer : 11297
-Input : 26 Answer : 16919
-Input : 27 Answer : 25329
-Input : 28 Answer : 37912
-Input : 29 Answer : 56752
-Input : 30 Answer : 84968
-Input : 31 Answer : 127216
-Input : 32 Answer : 190457
-Input : 33 Answer : 285121
-Input : 34 Answer : 426841
-Input : 35 Answer : 639025
-Input : 36 Answer : 956698
-Input : 37 Answer : 1432276
-Input : 38 Answer : 2144238
-Input : 39 Answer : 3210104
-Input : 40 Answer : 4805827
-Input : 41 Answer : 7194801
-Input : 42 Answer : 10771315
-Input : 43 Answer : 16125657
-Input : 44 Answer : 24141588
-Input : 45 Answer : 36142216
-Input : 46 Answer : 54108332
-Input : 47 Answer : 81005304
-Input : 48 Answer : 121272549
-Input : 49 Answer : 181556353
-Input : 50 Answer : 271806901
-Input : 51 Answer : 406920537
-Input : 52 Answer : 609198390
-Input : 53 Answer : 912027292
-Input : 54 Answer : 1365390546
-Input : 55 Answer : 2044117984
-Input : 56 Answer : 3060236911
-Input : 57 Answer : 4581462593
-Input : 58 Answer : 6858880431
-Input : 59 Answer : 10268388961
-Input : 60 Answer : 15372743856
-Input : 61 Answer : 23014443360
-Input : 62 Answer : 34454786384
-Input : 63 Answer : 51582055776
-Input : 64 Answer : 77223188593
-Input : 65 Answer : 115610375809
-Input : 66 Answer : 173079605553
-Input : 67 Answer : 259116447713
-Input : 68 Answer : 387921692082
-Input : 69 Answer : 580755256484
-Input : 70 Answer : 869445237846
-Input : 71 Answer : 1301641291112
-Input : 72 Answer : 1948679430907
-Input : 73 Answer : 2917356379473
-Input : 74 Answer : 4367556873803
-Input : 75 Answer : 6538643402761
-Input : 76 Answer : 9788964124780
-Input : 77 Answer : 14654999935160
-Input : 78 Answer : 21939913188436
-Input : 79 Answer : 32846113465000
-Input : 80 Answer : 49173720992541
-Input : 81 Answer : 73617685052481
-Input : 82 Answer : 110212598176077
-Input : 83 Answer : 164998624829513
-Input : 84 Answer : 247018459287054
-Input : 85 Answer : 369809865332076
-Input : 86 Answer : 553640148560634
-Input : 87 Answer : 828851371566224
-Input : 88 Answer : 1240868455682791
-Input : 89 Answer : 1857696780301921
-Input : 90 Answer : 2781146794194631
-Input : 91 Answer : 4163638314321489
-Input : 92 Answer : 6233358141570504
-Input : 93 Answer : 9331923377555216
-Input : 94 Answer : 13970766952051768
-Input : 95 Answer : 20915552060567892
-Input : 96 Answer : 31312548516459890
-Input : 97 Answer : 46877830035585610
-Input : 98 Answer : 70180520365192630
-Input : 99 Answer : 105066839377812160
-Input : 100 Answer : 157294939954840000
+Input : 1 => Answer : 1
+Input : 2 => Answer : 1
+Input : 3 => Answer : 1
+Input : 4 => Answer : 2
+Input : 5 => Answer : 4
+Input : 6 => Answer : 6
+Input : 7 => Answer : 8
+Input : 8 => Answer : 11
+Input : 9 => Answer : 17
+Input : 10 => Answer : 27
+Input : 11 => Answer : 41
+Input : 12 => Answer : 60
+Input : 13 => Answer : 88
+Input : 14 => Answer : 132
+Input : 15 => Answer : 200
+Input : 16 => Answer : 301
+Input : 17 => Answer : 449
+Input : 18 => Answer : 669
+Input : 19 => Answer : 1001
+Input : 20 => Answer : 1502
+Input : 21 => Answer : 2252
+Input : 22 => Answer : 3370
+Input : 23 => Answer : 5040
+Input : 24 => Answer : 7543
+Input : 25 => Answer : 11297
+Input : 26 => Answer : 16919
+Input : 27 => Answer : 25329
+Input : 28 => Answer : 37912
+Input : 29 => Answer : 56752
+Input : 30 => Answer : 84968
+Input : 31 => Answer : 127216
+Input : 32 => Answer : 190457
+Input : 33 => Answer : 285121
+Input : 34 => Answer : 426841
+Input : 35 => Answer : 639025
+Input : 36 => Answer : 956698
+Input : 37 => Answer : 1432276
+Input : 38 => Answer : 2144238
+Input : 39 => Answer : 3210104
+Input : 40 => Answer : 4805827
+Input : 41 => Answer : 7194801
+Input : 42 => Answer : 10771315
+Input : 43 => Answer : 16125657
+Input : 44 => Answer : 24141588
+Input : 45 => Answer : 36142216
+Input : 46 => Answer : 54108332
+Input : 47 => Answer : 81005304
+Input : 48 => Answer : 121272549
+Input : 49 => Answer : 181556353
+Input : 50 => Answer : 271806901
+Input : 51 => Answer : 406920537
+Input : 52 => Answer : 609198390
+Input : 53 => Answer : 912027292
+Input : 54 => Answer : 1365390546
+Input : 55 => Answer : 2044117984
+Input : 56 => Answer : 3060236911
+Input : 57 => Answer : 4581462593
+Input : 58 => Answer : 6858880431
+Input : 59 => Answer : 10268388961
+Input : 60 => Answer : 15372743856
+Input : 61 => Answer : 23014443360
+Input : 62 => Answer : 34454786384
+Input : 63 => Answer : 51582055776
+Input : 64 => Answer : 77223188593
+Input : 65 => Answer : 115610375809
+Input : 66 => Answer : 173079605553
+Input : 67 => Answer : 259116447713
+Input : 68 => Answer : 387921692082
+Input : 69 => Answer : 580755256484
+Input : 70 => Answer : 869445237846
+Input : 71 => Answer : 1301641291112
+Input : 72 => Answer : 1948679430907
+Input : 73 => Answer : 2917356379473
+Input : 74 => Answer : 4367556873803
+Input : 75 => Answer : 6538643402761
+Input : 76 => Answer : 9788964124780
+Input : 77 => Answer : 14654999935160
+Input : 78 => Answer : 21939913188436
+Input : 79 => Answer : 32846113465000
+Input : 80 => Answer : 49173720992541
+Input : 81 => Answer : 73617685052481
+Input : 82 => Answer : 110212598176077
+Input : 83 => Answer : 164998624829513
+Input : 84 => Answer : 247018459287054
+Input : 85 => Answer : 369809865332076
+Input : 86 => Answer : 553640148560634
+Input : 87 => Answer : 828851371566224
+Input : 88 => Answer : 1240868455682791
+Input : 89 => Answer : 1857696780301921
+Input : 90 => Answer : 2781146794194631
+Input : 91 => Answer : 4163638314321489
+Input : 92 => Answer : 6233358141570504
+Input : 93 => Answer : 9331923377555216
+Input : 94 => Answer : 13970766952051768
+Input : 95 => Answer : 20915552060567892
+Input : 96 => Answer : 31312548516459890
+Input : 97 => Answer : 46877830035585610
+Input : 98 => Answer : 70180520365192630
+Input : 99 => Answer : 105066839377812160
+Input : 100 => Answer : 157294939954840000
 </pre>
