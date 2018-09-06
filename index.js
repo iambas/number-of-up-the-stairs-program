@@ -5,20 +5,18 @@ for (let i = 1; i <= 100; i++) {
 }
 
 function findAnswer(input) {
-    var mx = input;
-    var my = parseInt(input / 4);
-    var mz = parseInt(input / 5);
-
-    var max = [mx, my, mz];
-    var result = [];
-    var counter = 0;
+    const mx = input;
+    const my = parseInt(input / 4);
+    const mz = parseInt(input / 5);
+    const max = [mx, my, mz];
+    let result = [];
 
     for (let i = 0; i <= max[0]; i++) {
         for (let j = 0; j <= max[1]; j++) {
             for (let k = 0; k <= max[2]; k++) {
                 const sum = (i * data[0]) + (j * data[1]) + (k * data[2]);
                 if (sum === input) {
-                    result[counter++] = [i, j, k];
+                    result.push([i, j, k]);
                 }
             }
         }
@@ -36,7 +34,7 @@ function findAnswer(input) {
         }
     });
 
-    console.log('Input :', input, 'Answer :', answer);
+    console.log('Input :', input, '=> Answer :', answer);
 }
 
 function factorial(n) {
