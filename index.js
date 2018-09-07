@@ -16,11 +16,9 @@ function findAnswer(input) {
         const maxY = parseInt((input - i) / data[1]);
         for (let j = 0; j <= maxY; j++) {
             const maxZ = parseInt((input - (i + (j * data[1]))) / data[2]);
-            for (let k = 0; k <= maxZ; k++) {
-                const sum = (i * data[0]) + (j * data[1]) + (k * data[2]);
-                if (sum === input) {
-                    result.push([i, j, k]);
-                }
+            const sum = (i * data[0]) + (j * data[1]) + (maxZ * data[2]);
+            if (sum === input) {
+                result.push([i, j, maxZ]);
             }
         }
     }
@@ -50,8 +48,7 @@ function memoize(func) {
         var key = JSON.stringify(arguments);
         if (cache[key]) {
             return cache[key];
-        }
-        else {
+        } else {
             var val = func.apply(this, arguments);
             cache[key] = val;
             return val;
