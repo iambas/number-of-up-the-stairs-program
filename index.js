@@ -10,15 +10,13 @@ for (let i = 1; i <= 100; i++) {
 }
 
 function findAnswer(input) {
-    const mx = input;
-    const my = parseInt(input / 4);
-    const mz = parseInt(input / 5);
-    const max = [mx, my, mz];
     let result = [];
 
-    for (let i = 0; i <= max[0]; i++) {
-        for (let j = 0; j <= max[1]; j++) {
-            for (let k = 0; k <= max[2]; k++) {
+    for (let i = 0; i <= input; i++) {
+        const maxY = parseInt((input - i) / data[1]);
+        for (let j = 0; j <= maxY; j++) {
+            const maxZ = parseInt((input - (i + (j * data[1]))) / data[2]);
+            for (let k = 0; k <= maxZ; k++) {
                 const sum = (i * data[0]) + (j * data[1]) + (k * data[2]);
                 if (sum === input) {
                     result.push([i, j, k]);
